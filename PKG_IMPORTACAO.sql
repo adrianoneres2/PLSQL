@@ -23,10 +23,7 @@ CREATE OR REPLACE PACKAGE pkg_importacao IS
     /*
      Layout de importação padrão número 1.
     */
-    vArrayLayoutPadrao TArrayString := TArrayString('NM_FANTASIA', 'NM_RAZAO_SOCIAL', 'NR_CNPJ', 'DS_ENDERECO', 'DS_COMPLEMENTO');    
-    
-    
-    
+    vArrayLayoutPadrao TArrayString := TArrayString('NM_FANTASIA', 'NM_RAZAO_SOCIAL', 'NR_CNPJ', 'DS_ENDERECO', 'DS_COMPLEMENTO');        
     
 END pkg_importacao;
 /
