@@ -8,7 +8,7 @@ create or replace package pkg_indexacao IS
   CONST_ORIGEM_OCR_BRSAFE CONSTANT NUMBER := 5;
   CONST_ORIGEM_FORM_DIGIT CONSTANT NUMBER := 6;
   CONST_ORIGEM_FORM_OAB CONSTANT NUMBER := 7;  
-  ---
+  CONST_ORIGEM_OCR CONSTANT NUMBER := 8;
   
   --// Constantes de campos default
   CONST_IDX_COD_NUM_CPF  CONSTANT NUMBER := 1;
