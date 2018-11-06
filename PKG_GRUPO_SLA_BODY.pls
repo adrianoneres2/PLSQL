@@ -43,6 +43,7 @@ create or replace PACKAGE BODY PKG_GRUPO_SLA IS
   END fExisteGrupoSlaCod;
 
     /**
+    
    * Função para gerenciar as configurações gerais do workflow
    * @param v_cod_usuario
    * @param v_rGrupoSla: Record com os dados principais do workflow
