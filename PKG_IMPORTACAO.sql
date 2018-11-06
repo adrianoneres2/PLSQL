@@ -5,6 +5,8 @@ create or replace PACKAGE pkg_importacao IS
     rEmpresa tb_empresa%ROWTYPE;
     rEnderecoEmpresa tb_endereco_empresa%ROWTYPE;
     
+    
+    
     ---DECLARAÇÕES DE FUNÇÕES.
     
     ---Valida se a string passada como argumento coincide com Layout padrão definido.
